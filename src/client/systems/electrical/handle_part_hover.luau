@@ -47,9 +47,6 @@ return function(world: tst.Registry)
 		return
 	end
 
-	local was_selected = is_occupied(world, result.Instance)
-	if was_selected then return end
-
 	result.Instance.BrickColor = BrickColor.new "Gold"
 	result.Instance.Transparency = 0.2
 	world:context():set(ct.io_hovering, result.Instance)
