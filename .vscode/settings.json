@@ -1,0 +1,28 @@
+{
+	"[luau]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+	"[lua]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+    "editor.formatOnSave": true,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+
+        "**/*.rbxm": true,
+
+        "Packages": false,
+        "ServerPackages": true
+    },
+
+    "editor.rulers": [
+        80
+        
+    ]
+}

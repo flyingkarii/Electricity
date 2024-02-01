@@ -1,0 +1,7 @@
+std = "roblox"
+
+[rules]
+mixed_table = "allow"
+multiple_statements = "allow"
+incorrect_standard_library_use = "allow"
+if_same_then_else = "allow"

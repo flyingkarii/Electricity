@@ -1,0 +1,52 @@
+{
+	"name": "tinytycoon",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+
+			"$path": "src/shared",
+
+			"packages": {
+				"$path": "Packages"
+			},
+
+			"client": {
+				"$path": "src/client"
+			},
+
+			"data": {
+				"$path": "src/data"
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+
+			"main-server": {
+				"$path": "src/main/main.server.luau"
+			}
+		},
+
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/server"
+		},
+
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"$ignoreUnknownInstances": true,
+
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$ignoreUnknownInstances": true,
+
+				"main-client": {
+					"$path": "src/main/main.client.luau"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+[test_generator]
+output_charge = 100
+
+[switch]
+required_charge = 1
+
+[simple_light]
+required_charge = 1

@@ -1,0 +1,6 @@
+column_width = 80
+collapse_simple_statement = "ConditionalOnly"
+call_parentheses = "None"
+
+[sort_requires]
+enabled = true

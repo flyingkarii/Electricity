@@ -1,0 +1,12 @@
+[package]
+name = "egg/electricity"
+private = true
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+vide = "aloroid/vide-with-types@0.2.2"
+gorp = "aloroid/gorp-ecr@0.2.0-indev8"
+ecr = "centau/ecr@0.8.0"
+future = "red-blox/future@1.0.1"
