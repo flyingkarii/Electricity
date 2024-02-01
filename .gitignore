@@ -10,5 +10,8 @@
 /Packages
 /ServerPackages
 
+src/main
+src/shared
+
 sourcemap.json
 wally.lock
