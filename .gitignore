@@ -10,8 +10,8 @@
 /Packages
 /ServerPackages
 
-src/main
-src/shared
+src/main/*
+src/shared/*
 src/client/loop.luau
 src/server/loop.luau
 
