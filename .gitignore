@@ -12,6 +12,8 @@
 
 src/main
 src/shared
+src/client/loop.luau
+src/server/loop.luau
 
 sourcemap.json
 wally.lock
